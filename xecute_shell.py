@@ -1,7 +1,6 @@
 import os
 import subprocess
 
-from server import server
 
 
 def execute_shell_command_in_directory(directory, command):
@@ -21,6 +20,5 @@ def execute_shell_command_in_directory(directory, command):
 if __name__ == "__main__":
     directory_to_enter = "freegpt-webui-v2"
     command_to_execute = "python run.py"
-  
-server()
+
 execute_shell_command_in_directory(directory_to_enter, command_to_execute)
