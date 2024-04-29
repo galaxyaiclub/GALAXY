@@ -24,7 +24,7 @@ def execute_shell_command_in_directory(directory, command, install_dependencies=
 
 # Example usage
 if __name__ == "__main__":
-    directory_to_enter = "freegpt-webui-v2"
+    directory_to_enter = ""
     command_to_execute = "python run.py"
     
     # Set to True if you want to install dependencies before running the command
